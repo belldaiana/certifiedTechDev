@@ -1,0 +1,14 @@
+INFO    2022-05-25 14:25:01,473 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2022-05-25 14:25:01,474 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2022-05-25 14:25:01,474 [main] ListaPromedio  - La longituda de la lista es mayor a 10
+ERROR   2022-05-25 14:25:01,474 [main] Test  - La lista es igual a cero 
+java.lang.Exception
+	at ListaPromedio.<init>(ListaPromedio.java:19)
+	at Test.main(Test.java:20)
+INFO    2022-05-25 14:26:20,160 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2022-05-25 14:26:20,161 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2022-05-25 14:26:20,161 [main] ListaPromedio  - La longituda de la lista es mayor a 10
+ERROR   2022-05-25 14:26:20,162 [main] Test  - La lista es igual a cero 
+java.lang.Exception
+	at ListaPromedio.<init>(ListaPromedio.java:19)
+	at Test.main(Test.java:20)
