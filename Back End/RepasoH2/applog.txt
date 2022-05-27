@@ -1,0 +1,194 @@
+ERROR   2022-05-27 17:36:18,184 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "APELLIDO" no encontrada
+Column "APELLIDO" not found; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, NRO SOCIO) VALUES (1,'Daiana','Miño', '123456', 56) [42122-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:754)
+	at org.h2.command.Parser.parseColumn(Parser.java:1264)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1249)
+	at org.h2.command.Parser.parseInsert(Parser.java:1650)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:44)
+ERROR   2022-05-27 17:37:49,230 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "APELLIDO" no encontrada
+Column "APELLIDO" not found; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, NRO SOCIO) VALUES (1,'Daiana','Mino', '123456', 56) [42122-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:754)
+	at org.h2.command.Parser.parseColumn(Parser.java:1264)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1249)
+	at org.h2.command.Parser.parseInsert(Parser.java:1650)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:44)
+ERROR   2022-05-27 17:39:30,720 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "APELLIDO" no encontrada
+Column "APELLIDO" not found; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, EDAD) VALUES (1,'Daiana','Mino', '123456', 56) [42122-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:754)
+	at org.h2.command.Parser.parseColumn(Parser.java:1264)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1249)
+	at org.h2.command.Parser.parseInsert(Parser.java:1650)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:44)
+ERROR   2022-05-27 17:40:07,876 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "APELLIDO" no encontrada
+Column "APELLIDO" not found; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, EDAD) VALUES (1,'Daiana', 'Mino', '123456', 56) [42122-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:754)
+	at org.h2.command.Parser.parseColumn(Parser.java:1264)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1249)
+	at org.h2.command.Parser.parseInsert(Parser.java:1650)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:44)
+ERROR   2022-05-27 17:42:19,485 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "APELLIDO" no encontrada
+Column "APELLIDO" not found; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, EDAD) VALUES (1,'Daiana', 'Mino', '123456', 56) [42122-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:754)
+	at org.h2.command.Parser.parseColumn(Parser.java:1264)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1249)
+	at org.h2.command.Parser.parseInsert(Parser.java:1650)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:44)
+ERROR   2022-05-27 17:46:59,320 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Daiana', 'Mino', '123456', 56)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Daiana', 'Mino', '123456', 56)"; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, EDAD) VALUES (1,'Roberta', 'Gonzalez', '456789', 59) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:46)
+ERROR   2022-05-27 17:50:14,202 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Daiana', 'Mino', '123456', 56)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Daiana', 'Mino', '123456', 56)"; SQL statement:
+INSERT INTO EMPLEADO (ID, NOMBRE, APELLIDO, DNI, EDAD) VALUES (1,'Roberta', 'Gonzalez', '456789', 59) [23505-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:49)
+ERROR   2022-05-27 17:50:47,962 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE [*]FROM EMPLEADO\000aSET ID = 4\000aWHERE NOMBRE = 'DAIANA';"; se esperaba "identifier"
+Syntax error in SQL statement "UPDATE [*]FROM EMPLEADO\000aSET ID = 4\000aWHERE NOMBRE = 'DAIANA';"; expected "identifier"; SQL statement:
+UPDATE FROM EMPLEADO
+SET ID = 4
+WHERE NOMBRE = 'DAIANA'; [42001-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5724)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5684)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8306)
+	at org.h2.command.Parser.readSimpleTableFilter(Parser.java:1168)
+	at org.h2.command.Parser.parseUpdate(Parser.java:1126)
+	at org.h2.command.Parser.parsePrepared(Parser.java:858)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:51)
+ERROR   2022-05-27 17:51:16,846 [main] Test  - Los datos no deben ser coincidentes
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE [*]FROM EMPLEADO\000aSET ID = 4\000aWHERE NOMBRE = 'Daiana';"; se esperaba "identifier"
+Syntax error in SQL statement "UPDATE [*]FROM EMPLEADO\000aSET ID = 4\000aWHERE NOMBRE = 'Daiana';"; expected "identifier"; SQL statement:
+UPDATE FROM EMPLEADO
+SET ID = 4
+WHERE NOMBRE = 'Daiana'; [42001-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.Parser.readIdentifier(Parser.java:5724)
+	at org.h2.command.Parser.readIdentifierWithSchema(Parser.java:5684)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8306)
+	at org.h2.command.Parser.readSimpleTableFilter(Parser.java:1168)
+	at org.h2.command.Parser.parseUpdate(Parser.java:1126)
+	at org.h2.command.Parser.parsePrepared(Parser.java:858)
+	at org.h2.command.Parser.parse(Parser.java:691)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:568)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at Test.main(Test.java:51)

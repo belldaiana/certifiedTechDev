@@ -4,7 +4,7 @@ const Navigation = ({poke}) => {
             <button onClick={() => poke(1)} >Fire</button>
             <button onClick={() => poke(2)} >Water</button>
             <button onClick={() => poke(3)} >Rock</button>
-            <button onClick={() => poke(3)} >Electric</button>
+            <button onClick={() => poke(4)} >Electric</button>
         </div>
     );
 }

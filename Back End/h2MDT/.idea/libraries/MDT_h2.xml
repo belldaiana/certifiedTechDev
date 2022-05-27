@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MDT-h2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MDT-h2/MDT-h2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/MDT-h2/h2-2.1.212.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
