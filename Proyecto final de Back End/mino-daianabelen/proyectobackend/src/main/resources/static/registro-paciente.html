@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header>
+    <h2>
+        <p>Clinica Odontológica <span aria-label="Emoji muela">🦷</span></p>
+    </h2>
+</header>
+<div>
+    <h2 class="administracion">Administración de Pacientes</h2>
+</div>
+<main>
+    <section>
+        <div class="form-container">
+            <div class="form">
+                <h2 class="registerpac">Registrar paciente</h2>
+                <form action="" method="POST" name="formularioPaciente"  id="formularioPaciente">
+                    <fieldset name="datos">
+                        <legend>Datos personales</legend>
+                        <input type="text"
+                               id="nombre"
+                               name="nombre"
+                               placeholder="Nombre"
+                               required>
+
+                        <input type="text"
+                               id="apellido"
+                               name="apellido"
+                               placeholder="Apellido"
+                               required>
+
+                        <input type="number"
+                               id="dni"
+                               name="dni"
+                               placeholder="DNI"
+                               required>
+                    </fieldset>
+
+                    <fieldset name="direccion">
+                        <legend>Dirección</legend>
+                        <input type="text"
+                               id="calle"
+                               name="calle"
+                               placeholder="Calle"
+                               required>
+
+                        <input type="number"
+                               id="numero"
+                               name="numero"
+                               placeholder="Numero"
+                               required>
+
+                        <input type="text"
+                               id="localidad"
+                               name="localidad"
+                               placeholder="Localidad"
+                               required>
+
+                        <input type="text"
+                               id="provincia"
+                               name="provincia"
+                               placeholder="Provincia"
+                               required>
+                    </fieldset>
+
+
+                    <div class="conteiner-btn">
+                        <input type="reset"
+                               class="btncargar"
+                               value="Resetear">
+
+                        <input type="submit"
+                               class="btncargar"
+                               value="Crear">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footerpaciente">
+    <p>Todos los derechos reservados a Daiana Belen Miño ©</p>
+</footer>
+</body>
+</html>

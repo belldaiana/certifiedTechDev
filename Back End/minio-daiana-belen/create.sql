@@ -1,0 +1,1 @@
+create table if not exists odontologos (id int auto_increment primary key,matricula varchar(255),nombre varchar (255),apellido varchar (255));

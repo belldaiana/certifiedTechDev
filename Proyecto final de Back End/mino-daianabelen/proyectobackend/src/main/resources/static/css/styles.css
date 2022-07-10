@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c27ba0;
+    font-size: 20px;
+    width: 100%;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 5px 20px black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header h2 p {
+    color: white;
+    padding: 0 80px;
+}
+
+article {
+    border: 1px;
+    display: inline-block;
+    width: 40%;
+    margin-left: 7%;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10%;
+    background-color: #ead1dc;
+    text-align: center;
+    margin: 8%;
+}
+
+.hidden li a{
+    color: #9fc5e8;
+    list-style: none;
+}
+
+.hidden {
+    text-align: center;
+    padding: 1%;
+    list-style: none;
+}
+
+.invisible {
+    color: white;
+}
+
+footer {
+    margin-top: 4%;
+    width: 100%;
+    background-color: #c27ba0;
+    color: white;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.administracion {
+    padding: 3%;
+    text-align: center;
+    background-color: #ead1dc;
+}
+
+.registro {
+    padding: 34px;
+}
+
+.btncargar {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ead1dc;
+}
+
+label {
+    display: flex;
+    margin: 1%;
+    padding-left: 3%;
+    margin-right: 89%;
+    background-color: #ead1dc;
+}
+
+input {
+    margin: 1%;
+}
+
+.footeruser {
+    margin-top: 12%;
+}
+
+.footerodontologo {
+    padding-bottom: 22px;
+    padding-top: 18px;
+    margin-top: 5%;
+}
+
+.titleOdon{
+    padding: 2%;
+    text-align: center;
+    background-color: #ead1dc;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.tableOdon{
+    background-color: #c27ba0;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.nameOdon{
+    padding-right: 40px;
+}
+
+thead {
+    font-style: italic;
+}
+
+.footerlista{
+    margin-top: 36%;
+}
+
+.registerpac {
+    padding: 3%;
+}
+
+.footerpaciente {
+    margin-top: 16%;
+}
+
+.tablePac {
+    background-color: #c27ba0;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: 2px solid black;
+}
+
+thead th {
+    padding-left: 1%;
+    padding-right: 1%;
+    letter-spacing: 1px;
+}
+
+.footerturnos {
+    margin-top: 32%;
+}
+
+.informacionTitulo {
+    padding: 3%;
+}
+
+.listado {
+    background-color: #c27ba0;
+    width: 45%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: 2px solid black;
+}
+
+.formturnos {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.footerturnos {
+    margin-top: 28%;
+}

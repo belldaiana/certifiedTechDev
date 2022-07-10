@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header>
+    <h2>
+        <p>Clinica Odontológica <span aria-label="Emoji muela">🦷</span></p>
+    </h2>
+</header>
+<main>
+    <section>
+        <div class="form-container">
+            <div class="form">
+                <h2 class="registro">Registrar turno</h2>
+                <form action="" method="POST" name="formularioTurno" id="formularioTurno">
+                    <input type="number"
+                           id="idPaciente"
+                           name="idPaciente"
+                           placeholder="ID del paciente"
+                           required>
+
+                    <input type="number"
+                           id="idOdontologo"
+                           name="idOdontologo"
+                           placeholder="ID del odontologo"
+                           required=>
+
+                    <input type="date"
+                           id="fecha"
+                           name="fecha"
+                           required>
+
+                    <input type="time"
+                           id="hora"
+                           name="hora"
+                           required>
+
+                    <div class="conteiner-btn">
+                        <input type="reset"
+                               class="btncargar"
+                               value="Resetear">
+
+                        <input type="submit"
+                               class="btncargar"
+                               value="Crear">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footerturnos">
+    <p>Todos los derechos reservados a Daiana Belen Miño ©</p>
+</footer>
+</body>
+</html>
